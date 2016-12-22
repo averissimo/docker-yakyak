@@ -1,0 +1,5 @@
+yakyak:
+  build: .
+  volumes:
+    - ./docker-dist:/data/yakyak/dist
+  command: bash "/data/yakyak/command.sh"
